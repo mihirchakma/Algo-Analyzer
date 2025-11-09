@@ -25,7 +25,7 @@ Member Algorithm Specific TaskMember 1Linear SearchMeasure time to find an eleme
 
 
 | Member                     | Algorithm     | Specific Task                                            |
-|:---------------------------|:-------------:|:---------------------------------------------------------|
+|:---------------------------|:--------------|:---------------------------------------------------------|
 | **Member 1** - 22UG3-0108  | Linear Search | Measure time to find an element (worst-case scenario).   |
 | **Member 2** - 22UG3-0570  | Binary Search | Sort the array first, then measure only the search time. |
 | **Member 3** - 22UG3-0912  | Bubble Sort   | Measure full sorting time.                               |
