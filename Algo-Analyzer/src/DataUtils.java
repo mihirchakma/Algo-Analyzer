@@ -4,6 +4,7 @@ import java.util.Random;
  * Shared utility class for the Algorithm Analyzer project.
  * Provides common methods for generating test data and printing formatted results.
  */
+
 public class DataUtils {
 
     /**
