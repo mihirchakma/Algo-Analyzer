@@ -1,8 +1,25 @@
 # Algorithm Analyzer
 
+- **Assessment:** Practical Assignment 03
+- **Module:** CIT300 - Data Structures and Algorithms
+- **Degree program:** Bachelor of Applied Information Technology (BAIT)
+- **Faculty:** Faculty of Computing and IT
+- **University:** Sri Lanka Technology Campus (SLTC)
+
+---
+
+## 👥 Group Details
+
+* **Member 1:** 22UG3-0108 - Ruchira Vishvajith Dharma Shri
+* **Member 2:** 22UG3-0912 - Pandigamage Saleela Kaushal
+* **Member 3:** 22UG3-0570 - Thavalampitiye Dhammika
+* **Member 4:** 22UG3-0235 - Mihir Chakma
+
+---
+
 ## 📘 Project Overview
 
-This project is for *CIT300 Graded Practical Assignment 3* (Week 14). The objective is to develop a standard Java application to measure and analyze the runtime performance (algorithmic complexity) of four fundamental algorithms across different input sizes (100, 500, and 1000 elements).
+This project is for ***CIT300 Graded Practical Assignment 3*** (Week 14). The objective is to develop a standard Java application to measure and analyze the runtime performance (algorithmic complexity) of four fundamental algorithms across different input sizes (100, 500, and 1000 elements).
 
 We used ```System.nanoTime()``` instead of ```System.currentTimeMillis()``` because for small array sizes (100, 500), modern computers are too fast for milliseconds to register meaningful differences.
 
@@ -10,25 +27,22 @@ We used ```System.nanoTime()``` instead of ```System.currentTimeMillis()``` beca
 
 ## ⏱️ Why We Use System.nanoTime()
 
-For this assignment, we utilize System.nanoTime() instead of System.currentTimeMillis().
+For this assignment, we utilize ```System.nanoTime()``` instead of ```System.currentTimeMillis()```.
 
 - **The Problem:** Modern computers are incredibly fast. Efficient algorithms like Binary Search or Quick Sort can process 1000 elements in less than 1 millisecond. Using ```System.currentTimeMillis()``` often results in a time of 0 ms, which provides no useful data for analysis.
 - **The Solution:** ```System.nanoTime()``` provides nanosecond precision (1 millisecond = 1,000,000 nanoseconds). capturing highly accurate execution times. We then convert these nanoseconds back to milliseconds with decimal precision for the final output.
 
 ---
 
-## 👥 Team Role Distribution
+## 👥 Team Role Contribution
 
 Per the assignment requirements, our team divided the implementation tasks as follows:
-
-Member Algorithm Specific TaskMember 1Linear SearchMeasure time to find an element (worst-case scenario).Member 2Binary SearchSort the array first, then measure only the search time.Member 3Bubble SortMeasure full sorting time.Member 4Quick SortMeasure full sorting time.
-
 
 | Member                     | Algorithm     | Specific Task                                            |
 |:---------------------------|:--------------|:---------------------------------------------------------|
 | **Member 1** - 22UG3-0108  | Linear Search | Measure time to find an element (worst-case scenario).   |
-| **Member 2** - 22UG3-0570  | Binary Search | Sort the array first, then measure only the search time. |
-| **Member 3** - 22UG3-0912  | Bubble Sort   | Measure full sorting time.                               |
+| **Member 2** - 22UG3-0912  | Binary Search | Sort the array first, then measure only the search time. |
+| **Member 3** - 22UG3-0570  | Bubble Sort   | Measure full sorting time.                               |
 | **Member 4** - 22UG3-0235  | Quick Sort    | Measure full sorting time.                               |
 
 ---
@@ -39,12 +53,12 @@ Member Algorithm Specific TaskMember 1Linear SearchMeasure time to find an eleme
 Algo-Analyzer/
 ├── README.md           # Project documentation
 ├── .gitignore          # Ignores compiled .class files
-└── src/
-    ├── DataUtils.java  # Shared helper (Array generation & Precise Table printing)
-    ├── LinearSearch.java
-    ├── BinarySearch.java
-    ├── BubbleSort.java
-    └── QuickSort.java
+└── Algo-Analyzer/src/
+                  ├── DataUtils.java  # Shared helper (Array generation & Precise Table printing)
+                  ├── LinearSearch.java
+                  ├── BinarySearch.java
+                  ├── BubbleSort.java
+                  └── QuickSort.java
 
 ```
 
